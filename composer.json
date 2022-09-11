@@ -1,0 +1,16 @@
+{
+  "name": "symbiotic/tests-http-cookie",
+  "description": "symbiotic/http-cookie testing package",
+  "version": "1.4.0",
+  "type": "library",
+  "require": {
+    "php": "^8.0",
+    "phpunit/phpunit": "^9.5.8",
+    "symbiotic/http-cookie": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Symbiotic\\Tests\\Http\\Cookie\\": "tests/Http/Cookie"
+    }
+  }
+}
